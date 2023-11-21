@@ -18,7 +18,7 @@ form{
 }
 
 
-input[type=text], input[type=password]{
+input[type=text], input[type=password], input[type=email] {
   width: 100%;
   margin: 10px 0;
   border-radius: 5px;
@@ -38,6 +38,15 @@ input[type=text], input[type=password]{
   border-radius: 5px;
 }
 
+.btnforgotp {
+  background-color: rgb(219, 219, 139);
+  color: black;
+  margin-top: 20px;
+  padding: 14px 200px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
 button:hover {
   opacity: 0.6;
   cursor: pointer;
@@ -47,8 +56,15 @@ button:hover {
      text-align: center;
 }
 
-   p{
+   p {
     color: rgb(219, 219, 139);
+    
+}
+
+.forgot-p {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
 }
   .mainContainer{
     padding: 16px;
