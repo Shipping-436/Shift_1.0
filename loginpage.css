@@ -1,18 +1,20 @@
 body 
  {
  font-family: Arial;
-  background: rgb(238,251,254);
-  background: linear-gradient(90deg, rgba(238,251,254,1) 0%,     rgba(48,142,244,0.9542410714285714) 100%);
+  background: rgba(238, 251, 254, 0);
+  background-image: linear-gradient(90deg, black, rgb(219, 219, 139))
 }
 
 h1{
   text-align: center;
+  margin-top: margin top;
 }
 
 form{
     width: 35rem;
     margin: auto;
-    color: whitesmoke;
+    color: black;
+    
 }
 
 
@@ -24,17 +26,19 @@ input[type=text], input[type=password]{
   box-sizing: border-box;
 }
 
-button {
-  background-color: #030804;
-  color: white;
-  padding: 14px 20px;
-  border-radius: 5px;
-  margin: 7px 0;
-  width: 100%
-  font-size 18px;
+.btn-div {
+  text-align: center;
 }
 
-button hovering {
+.btnlogin {
+  background-color: rgb(219, 219, 139);
+  color: black;
+  margin-top: 20px;
+  padding: 14px 200px;
+  border-radius: 5px;
+}
+
+button:hover {
   opacity: 0.6;
   cursor: pointer;
 }
@@ -43,8 +47,8 @@ button hovering {
      text-align: center;
 }
 
-  .headingsContainer p{
-    color: gray;
+   p{
+    color: rgb(219, 219, 139);
 }
   .mainContainer{
     padding: 16px;
@@ -93,3 +97,27 @@ button hovering {
     }
   }
 
+
+  .login-container {
+    background-color: black;
+    border: 2px solid rgb(219, 219, 139);
+    padding: 10px 0px;  
+    margin: auto;
+    width: fit-content;
+  }
+
+  .login-header {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+  }
+
+  .login-logo {
+    height: 40%;
+    width: 40%;
+
+  }
+
+  label {
+    color: rgb(219, 219, 139);
+  }
