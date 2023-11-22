@@ -1,6 +1,9 @@
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
 body 
  {
- font-family: Arial;
   background: rgba(238, 251, 254, 0);
   background-image: linear-gradient(90deg, black, rgb(219, 219, 139))
 }
