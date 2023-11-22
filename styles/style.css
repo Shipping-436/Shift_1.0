@@ -22,7 +22,7 @@
     padding: 15px;
     font-size: 20px;
     margin-top: 15px;
-    margin-right: 15px;
+    
   }
 
   .navlist .navitem:hover {
@@ -32,6 +32,13 @@
   .navlink {
     text-decoration: none;
     color: rgb(219, 219, 139);
+  }
+  
+  .navlink-current {
+    text-decoration: none;
+    color: rgb(219, 219, 139);
+    padding-bottom: 55px;
+    border-bottom: 5px solid rgb(219, 219, 139);
   }
 
   .profile-name {
