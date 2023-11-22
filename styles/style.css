@@ -88,6 +88,7 @@ input[type=text], input[type=password], input[type=email] {
   margin-top: 20px;
   padding: 14px 200px;
   border-radius: 5px;
+  font-size: 17px;
 }
 
 .btnforgotp {
@@ -97,6 +98,7 @@ input[type=text], input[type=password], input[type=email] {
   padding: 14px 200px;
   border-radius: 5px;
   margin-bottom: 20px;
+  font-size: 17px;
 }
 
 button:hover {
@@ -233,6 +235,7 @@ button:hover {
     margin-top: 20px;
     padding: 14px 14px;
     border-radius: 5px;
+    font-size: 17px;
   }
 
   .btndeny {
@@ -241,4 +244,5 @@ button:hover {
     margin-top: 20px;
     padding: 14px 14px;
     border-radius: 5px;
+    font-size: 17px;
   }
