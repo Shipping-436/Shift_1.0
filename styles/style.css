@@ -1,0 +1,50 @@
+* {
+    font-family: "Quicksand", sans-serif;
+  }
+
+  body {
+    background-image: linear-gradient(90deg, black, rgb(219, 219, 139))
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: rgb(219, 219, 139);
+  }
+
+  .navlist {
+    list-style-type: none;
+  }
+
+  .navlist .navitem {
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+
+  .navlist .navitem:hover {
+    opacity: .6;
+  }
+
+  .navlink {
+    text-decoration: none;
+    color: rgb(219, 219, 139);
+  }
+
+  .profile-name {
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .profile-name:hover {
+    opacity: .6;
+  }
+
+  .logo {
+    width: 50%;
+    height: 75%;
+  }
