@@ -172,6 +172,10 @@ button:hover {
 
   }
 
+  .requests-di p {
+    color: black;
+  }
+
   .create-container {
     background-color: black;
     border: 2px solid rgb(219, 219, 139);
@@ -182,4 +186,59 @@ button:hover {
 
   label {
     color: rgb(219, 219, 139);
+  }
+
+  .requests-container {
+    justify-content: center;
+  }
+
+  table {
+    width: 1500px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  th {
+    text-align: left;
+  }
+
+  table, th, td {
+    border: 2px solid black;
+  }
+
+  .requests-item {
+    background-color: black;
+    padding: 0 10px;
+  }
+
+  .requests-di {
+    background-color: rgb(219, 219, 139);
+    padding: 0 10px;
+  }
+
+  .requests-btn {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    width: 1500px;
+    background-color: black;
+  }
+
+  .btnaccept {
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+    padding: 14px 14px;
+    border-radius: 5px;
+  }
+
+  .btndeny {
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    padding: 14px 14px;
+    border-radius: 5px;
   }
