@@ -48,3 +48,131 @@
     width: 50%;
     height: 75%;
   }
+
+
+h1{
+  text-align: center;
+  color: rgb(219, 219, 139);
+  margin-top: 50px;
+}
+
+form{
+    width: 35rem;
+    margin: auto;
+    color: black;
+    
+}
+
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 15px 18px;
+  box-sizing: border-box;
+}
+
+.btn-div {
+  text-align: center;
+}
+
+.btnlogin {
+  background-color: rgb(219, 219, 139);
+  color: black;
+  margin-top: 20px;
+  padding: 14px 200px;
+  border-radius: 5px;
+}
+
+.btnforgotp {
+  background-color: rgb(219, 219, 139);
+  color: black;
+  margin-top: 20px;
+  padding: 14px 200px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+  .headingsContainer{
+     text-align: center;
+}
+
+   p {
+    color: rgb(219, 219, 139);
+    
+}
+
+.forgot-p {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+  .mainContainer{
+    padding: 16px;
+}
+  .subcontainer{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+ .subcontainer a{
+ font-size: 16px;
+ margin-bottom: 12px;
+}
+  
+  @media screen and (max-width: 600px) {
+    form{
+      width: 25rem;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    form{
+      width: 20rem;
+    }
+  }
+
+  .forgotpass {
+    color: rgb(219, 219, 139);
+  }
+
+  .forgotpass:visited {
+    color: rgb(219, 219, 139);
+  }
+
+  .login-container {
+    background-color: black;
+    border: 2px solid rgb(219, 219, 139);
+    padding: 10px 0;  
+    margin: auto;
+    width: fit-content;
+  }
+
+  .login-header {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+  }
+
+  .login-logo {
+    height: 40%;
+    width: 40%;
+
+  }
+
+  .create-container {
+    background-color: black;
+    border: 2px solid rgb(219, 219, 139);
+    padding: 15px 20px;  
+    margin: auto;
+    width: fit-content;
+  }
+
+  label {
+    color: rgb(219, 219, 139);
+  }

@@ -140,3 +140,11 @@ button:hover {
   label {
     color: rgb(219, 219, 139);
   }
+
+  .forgotpass {
+    color: rgb(219, 219, 139);
+  }
+
+  .forgotpass:visited {
+    color: rgb(219, 219, 139);
+  }
