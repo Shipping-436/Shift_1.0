@@ -80,6 +80,7 @@ input[type=text], input[type=password], input[type=email] {
 
 .btn-div {
   text-align: center;
+  text-decoration: none;
 }
 
 .btnlogin {
@@ -89,6 +90,11 @@ input[type=text], input[type=password], input[type=email] {
   padding: 14px 200px;
   border-radius: 5px;
   font-size: 17px;
+}
+
+.btnlogin a {
+  text-decoration: none;
+  color: black;
 }
 
 .btnforgotp {
