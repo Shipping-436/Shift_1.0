@@ -32,23 +32,27 @@
         <form id="login-form" action="">
       <!--Username Input-->
           <label for="username">Username</label>
-          <input type="text" placeholder="Enter Username" name= "username" required>
+          <input type="text" placeholder="Enter Username" name= "username">
 
           <br><br>
 
         <!--Pass-->
           <label for="pass">Password</label>
-          <input type="password" placeholder="Enter Password" name="pass" required>
+          <input type="password" placeholder="Enter Password" name="pass">
 
         <div class="subcontainer">
           <label>
-          <input type="checkbox" unchecked="checked" name="remember"> Remember Me </label>
+
+          <input type="checkbox" unchecked="unchecked" name="remember"> Remember Me </label>
+
           <p> <a class="forgotpass" href="forgot_password.html">Forgot Password</a></p>
         </form>
       </div>
       <div class="btn-div">
       <!--Submission-->
-        <button class=btnlogin type = "submit" form="login-form" style="font-size: 18pt;"style= "strong" ><a href="schedule_manager.html">Login</a></button>
+        <a href="schedule_manager.html">
+          <button class=btnlogin type = "button" form="login-form" style="font-size: 30;"style= font-><strong>Login</strong></button>
+        </a>
       </div>
       </div>
      </div>
