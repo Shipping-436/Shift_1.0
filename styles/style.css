@@ -3,7 +3,8 @@
   }
 
   body {
-    background-image: linear-gradient(90deg, black, rgb(219, 219, 139))
+    background-image: linear-gradient(90deg, black, rgb(219, 219, 139));
+    
   }
 
   .navbar {
@@ -51,6 +52,7 @@
     padding-top: 25px;
     font-size: 20px;
     margin-top: 20px;
+    width: 90px;
   }
 
   .profile-name:hover {
@@ -76,7 +78,7 @@ form{
     
 }
 
-input[type=text], input[type=password], input[type=email] {
+input[type=text], input[type=password], input[type=email], input[type=date] {
   width: 100%;
   margin: 10px 0;
   border-radius: 5px;
@@ -206,12 +208,11 @@ button:hover {
     justify-content: center;
   }
 
-  table {
+  .requests-table {
     width: 1500px;
-    margin-top: 5%;
+    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
-    
   }
 
   th {
@@ -230,6 +231,7 @@ button:hover {
   .requests-di {
     background-color: rgb(219, 219, 139);
     padding: 0 10px;
+    font-weight: bold;
   }
 
   .requests-btn {
@@ -257,4 +259,60 @@ button:hover {
     padding: 14px 14px;
     border-radius: 5px;
     font-size: 17px;
+  }
+
+  .edit-shifts-container {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  .shifts-form {
+    background-color: black;
+    border: 2px solid rgb(219, 219, 139);
+    padding: 15px 20px;  
+    margin-right: 15px;
+    width: fit-content;
+  }
+
+  .drop-container {
+    background-color: rgb(65, 65, 48);
+    border: 2px solid black;
+  }
+
+  .drop-item {
+    background-color: black;
+    padding: 0 10px;
+  }
+
+  .drop-data {
+    background-color: rgb(219, 219, 139);
+    padding: 0 10px;
+    font-weight: bold;
+  }
+
+  .drop-data p {
+    color: black;
+  }
+
+  .drop-table {
+    width: 1000px;
+    
+  }
+
+  .drop-btn {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0;
+    width: 1020px;
+    height: 100px;
+    background-color: black;
+  }
+
+  .scroll {
+    min-height: 365px;
+    max-height: 356px;
+    overflow-y: scroll;
   }
