@@ -64,6 +64,10 @@
     height: 100%;
   }
 
+  .navtabs {
+    padding: 0 123px
+  }
+
 
 h1{
   text-align: center;
