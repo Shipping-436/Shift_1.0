@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SHIPING 436 - Schedule</title>
-    <link rel="stylesheet" href="styles/style.css" />
+    <title>SHIPPING 436 - Create New Account</title>
+    <link rel="stylesheet" href="styles/style.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"/>
   </head>
 
@@ -18,13 +18,16 @@
             <div>
                 <ul class="navlist">
                     <li class="navitem">
-                        <a class="navlink-current" href="schedule.html">Calendar</a>
+                        <a class="navlink" href="schedule_manager.html">Calendar</a>
                     </li>
                     <li class="navitem">
-                        <a class="navlink" href=""></a>
+                        <a class="navlink-current" href="edit_shifts.html">Edit Shifts</a>
                     </li>
                     <li class="navitem">
-                        <a class="navlink" href="schedule.html"></a>
+                        <a class="navlink" href="requests.html">Drop Requests</a>
+                    </li>
+                    <li class="navitem">
+                        <a class="navlink" href="create_account.html">Create New Account</a>
                     </li>
                 </ul>
             </div>
@@ -33,9 +36,26 @@
             </div>
         </nav>
     </header>
-
-    <h1>Shift 1.0 - Calendar/Shift Selection</h1>
-    <div class="schedule-container">
+    <h1>Shift 1.0 - Edit Shifts</h1>
+    <div class="edit-shifts-container">
+        <div class="shifts-form">
+            <div class="headingsContainer">
+                <p>Enter in new shift information</p>
+            </div>
+            <form id="shift-form" action="">
+                <label for="project">Project</label>
+                <input class="shift-input" type="text" placeholder="Project" name="project">
+                <br><br>
+                <label for="date">Date</label>
+                <input class="shift-input" type="date" placeholder="Date" name="date">
+                <br><br>
+                <label for="hours">Hours</label>
+                <input class="shift-input" type="text" placeholder="Ex: 4:00 PM - 6:30 PM" name="hours">
+            </form>
+            <div class="btn-div">
+                <button class="btnlogin" type="submit"><Strong>Add Shift</Strong></button>
+            </div>
+        </div>
         <div class="drop-container">
             <div class="scroll">
                 <table class="drop-table">
@@ -84,9 +104,15 @@
                 </table>
             </div>
             <div class="drop-btn">
-                <button class="btnlogin"><strong>Take Shift</strong></button>
+                <button class="btnlogin"><strong>Remove Shift</strong></button>
             </div>
         </div>
     </div>
+
+
+    <footer>
+
+    </footer>
+
   </body>
 </html>
