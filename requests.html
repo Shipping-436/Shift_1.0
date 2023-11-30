@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SHIPPING 436 - Create New Account</title>
+    <title>SHIPPING 436 - Drop Requests</title>
     <link rel="stylesheet" href="styles/style.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"/>
   </head>
@@ -13,7 +13,7 @@
     <header>
         <nav class="navbar">
             <div class="img-div">
-                <img class="logo" src="Images/Shipping_436_Logo.png" alt="">
+                <a href="schedule.html"><img class="logo" src="Images/Shipping_436_Logo.png" alt=""></a>
             </div>
             <div>
                 <ul class="navlist">
@@ -21,10 +21,10 @@
                         <a class="navlink" href="schedule_manager.html">Calendar</a>
                     </li>
                     <li class="navitem">
-                        <a class="navlink" href="">Edit Shifts</a>
+                        <a class="navlink" href="edit_shifts.html">Edit Shifts</a>
                     </li>
                     <li class="navitem">
-                        <a class="navlink-current" href="requests.html">Requests</a>
+                        <a class="navlink-current" href="requests.html">Drop Requests</a>
                     </li>
                     <li class="navitem">
                         <a class="navlink" href="create_account.html">Create New Account</a>
@@ -37,44 +37,48 @@
         </nav>
     </header>
 
-    <div class="requests-container">
-        <table class="requests-table">
-            <tr class="requests-header">
-                <th class="requests-item"><p>Employee</p></th>
-                <th class="requests-item"><p>Shift Date</p></th>
-                <th class="requests-item"><p>Shift Time</p></th>
-                <th class="requests-item"><p>Explaination</p></th>
-                <th class="requests-item"><p>Select</p></th>
-            </tr>
-            <!--Temporary values for UI Showcase-->
-            <tr class="requests-data">
-                <td class="requests-di"><p>Steve Rose</p></td>
-                <td class="requests-di"><p>11/23/23</p></td>
-                <td class="requests-di"><p>8:00 PM - 12:00 AM</p></td>
-                <td class="requests-di"><p>It is Thanksgiving</p></td>
-                <td class="requests-di"><input type="checkbox"></td>
-            </tr>
-            <tr class="requests-data">
-                <td class="requests-di"><p>Tim Thompson</p></td>
-                <td class="requests-di"><p>11/25/23</p></td>
-                <td class="requests-di"><p>5:00 PM - 8:00 PM</p></td>
-                <td class="requests-di"><p>Not feeling well</p></td>
-                <td class="requests-di"><input type="checkbox"></td>
-            </tr>
-            <tr class="requests-data">
-                <td class="requests-di"><p>Jimmy Johnson</p></td>
-                <td class="requests-di"><p>11/24/23</p></td>
-                <td class="requests-di"><p>7:00 PM - 9:00 PM</p></td>
-                <td class="requests-di"><p>Changed my mind</p></td>
-                <td class="requests-di"><input type="checkbox"></td>
-            </tr>
-        </table>
-        <div class="requests-btn">
-            <button class="btnaccept">Accept</button>
-            <button class="btndeny">Deny</button>
+    <h1>Shift 1.0 - Drop Requests</h1>
+    <div class="cs-container">
+        <div class="requests-container">
+            <div class="scroll-take">
+                <table class="requests-table">
+                    <tr class="requests-header">
+                        <th class="requests-item"><p>Employee</p></th>
+                        <th class="requests-item"><p>Shift Date</p></th>
+                        <th class="requests-item"><p>Shift Time</p></th>
+                        <th class="requests-item"><p>Explaination</p></th>
+                        <th class="requests-item"><p>Select</p></th>
+                    </tr>
+                    <!--Temporary values for UI Showcase-->
+                    <tr class="requests-data">
+                        <td class="requests-di"><p>Steve Rose</p></td>
+                        <td class="requests-di"><p>11/23/23</p></td>
+                        <td class="requests-di"><p>8:00 PM - 12:00 AM</p></td>
+                        <td class="requests-di"><p>It is Thanksgiving</p></td>
+                        <td class="requests-di"><input type="checkbox"></td>
+                    </tr>
+                    <tr class="requests-data">
+                        <td class="requests-di"><p>Tim Thompson</p></td>
+                        <td class="requests-di"><p>11/25/23</p></td>
+                        <td class="requests-di"><p>5:00 PM - 8:00 PM</p></td>
+                        <td class="requests-di"><p>Not feeling well</p></td>
+                        <td class="requests-di"><input type="checkbox"></td>
+                    </tr>
+                    <tr class="requests-data">
+                        <td class="requests-di"><p>Jimmy Johnson</p></td>
+                        <td class="requests-di"><p>11/24/23</p></td>
+                        <td class="requests-di"><p>7:00 PM - 9:00 PM</p></td>
+                        <td class="requests-di"><p>Changed my mind</p></td>
+                        <td class="requests-di"><input type="checkbox"></td>
+                    </tr>
+                </table>
+            </div>
+                <div class="requests-btn">
+                    <button class="btnaccept">Accept</button>
+                    <button class="btndeny">Deny</button>
+                </div>
         </div>
     </div>
-
 
     </body>
 </html>
