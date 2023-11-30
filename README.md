@@ -12,6 +12,7 @@
     1. Enter your company's email address
     1. Select "Send Request"
     1. You will receive an email on your company's email server to reset your password
+1.The system will verify your login if you are a manager or supervisor you will have different authorizations than those with non-managerial positions.
 
 
 ___
@@ -20,12 +21,14 @@ ___
 
 1. Make sure you are logged into the company's VPN
 1. Go to Shift 10 application and log in. 
-1. At the top of the page go to "Available Shifts"
-1. Select the Date and time of the shift you desire by checking the box by it.
-1. Respond Yes, to the prompt if you want to select that shift.
-1. Respond No, to the prompt if you picked the wrong shift.
-1. Once you respond yes the shift will be recorded under your name and placed on the company's main calendar. 
-1. You can Log off the system or pick another shift.
+1. The system will log you in straight into the Calendar/Shift Selection page
+1. Check the available shifts on the table to the right side of the screen.
+1. Select the box on the shift Date and time that you want.
+1. Select the "Take Shift" buttom at the bottom.
+1. A pop up will ask you if you want to proceed with this shift.
+1. Click OK for yes.
+1. Click Cancel to abort picking the shift.
+1. Once you click ok, your shift will be displayes on the calendar to the left with your name, project and hours.
 
 ---
 
@@ -33,9 +36,10 @@ ___
 
 1. Make sure you are logged into the company's VPN
 1. Go to Shift 10 application and log in. 
-1. At the top of the page go to "Available Shifts"
-1. Find the shift you desire to drop and click on the link "Drop Request"
-    1. If the shift is scheduled more than 24 hours from the current date/time the system will ask you to confirm that you want to drop the shift. Select yes if you want to drop. Your name will be removed and shift will become available to other employees.
+1. At the top of the page go to "Your Shifts"
+1. Find the shift you desire to drop and click on the box by it.
+1. Select "Cancel Shift" button at the bottom of the page.
+    1. If the shift is scheduled more than 24 hours from the current date/time the system will ask you to confirm that you want to drop the shift. Select ok if you want to drop or cancel if you want to abort dropping the shift. Your name will be removed from the calendar on the left, and the shift will become available to other employees.
     1. If the shift is scheduled less than 24 hours from the current date/time the system will send an approval request to the employee's supervisor and he/she will contact the employee for further clarification.
 1. Log off or do the same to any other shifts you may need to drop.
 
@@ -45,13 +49,20 @@ ___
 1. Make sure you are logged into the company's VPN
 1. Go to Shift 10 application and log in. 
 1. At the top of the page go to "Edit Shifts"
-1. On the planner, select to the date/s needed
-    1. Note that a range of dates can be selected
-1. Select "Enter Shift" Pick the shift hours and note the project number/name and any other information that may be useful for the employees to know before the shift.
-1. Select Save and keep entering as many as needed.
-1. If any shifts are entered incorrectly. select the "Delete Shift" link and respond "Yes" To the promp.
-1. If changes on any of the shifts are needed, select the "Edit Shift" link make changes and select SAVE.
-1. Once all shifts have been entered, deleted or updated log off from system.
+1. To enter new shifts go to the form on the left of the page.
+    1. Enter the project number
+    1. Select the date of the shift/s you are planning to enter. (Note that you can use the calendar icon)
+    1. Enter the range of hours for that particular shift on the format noted on the form.
+1. Select "Add Shift" 
+1. A prompt will come up to verify you are ok with that information. Click OK for Yes or Cancel to abort.
+1. As soon as OK is selected, the shift will show up on the shift table to the right of the screen, and it will be available to non-managerial users on their page.
+1. If any shifts are entered incorrectly or need any changes, select the buttom on that shift on the shift table at the right.
+1. Select "Edit Shift" buttom at the bottom of screen. The system will prompt you to edit the shift of cancel the shift. 
+1. If Edit is chosen, the information will populate on the left side of the screen for you to make changes and click "Add Shift" again when done. Select OK prompt to approve changes.
+1. If cancel is chosen, the system will prompt you to verify you want to delete this shift and if OK is selected the shift will be removed from the table.
+1. Continue adding shifts, deleted or editing as needed.
+1. For security purposes, please log off using the "Sign-out"link at the top-left side of the screen.
+
 
 ---
 ## Shift 1.0 Create a New Account (only available to Supervisors & Managers)
@@ -76,6 +87,9 @@ The system will send a notification to HR stating the information that the mange
 ```
 
 9. Once all new accounts have been created please log off.
+
+___
+
 
 
 
