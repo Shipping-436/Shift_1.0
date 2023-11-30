@@ -20,7 +20,7 @@ ___
 ## Shift 1.0 Shift Request
 
 1. Make sure you are logged into the company's VPN
-1. Go to Shift 10 application and log in. 
+1. Go to Shift 1.0 application and log in. 
 1. The system will log you in straight into the Calendar/Shift Selection page
 1. Check the available shifts on the table to the right side of the screen.
 1. Select the box on the shift Date and time that you want.
@@ -35,7 +35,7 @@ ___
 ## Shift 1.0 Shift Drop
 
 1. Make sure you are logged into the company's VPN
-1. Go to Shift 10 application and log in. 
+1. Go to Shift 1.0 application and log in. 
 1. At the top of the page go to "Your Shifts"
 1. Find the shift you desire to drop and click on the box by it.
 1. Select "Cancel Shift" button at the bottom of the page.
@@ -47,7 +47,7 @@ ___
 ## Shift 10 Shift Edits (only available to Supervisors & Managers)
 
 1. Make sure you are logged into the company's VPN
-1. Go to Shift 10 application and log in. 
+1. Go to Shift 1.0 application and log in. 
 1. At the top of the page go to "Edit Shifts"
 1. To enter new shifts go to the form on the left of the page.
     1. Enter the project number
@@ -68,7 +68,7 @@ ___
 ## Shift 1.0 Create a New Account (only available to Supervisors & Managers)
 
 1. Make sure you are logged into the company's VPN
-1. Go to Shift 10 application and log in. 
+1. Go to Shift 1.0 application and log in. 
 1. At the top of the page go to the "Create New Account" link.
 1. When the page open, enter the new employees firts and last name.
 1. Enter the employee's position in the company, department and inmediate supervisor.
@@ -76,7 +76,7 @@ ___
 1. If the new employee has been properly hired and documented it will be veried in HR's employee table. At that time you will receive a message stating that the new employee has been added to Shift 1.0 
 
 ```
-The New Employee will receive a message from the system with the link for Shift 1.0, their new user name and a temporary password that they will have to change on their first login.
+The New Employee will receive a message from the system with the link for Shift 1.0 their new user name and a temporary password that they will have to change on their first login.
 
 ```
 8. If the employee hasn't been properly fired and documented, the system will populate a promp to advise the supervisor or manager of this fact.
