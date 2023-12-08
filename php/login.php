@@ -10,13 +10,19 @@
 <?php 
 //include database connection
 include("php/connect.php");
+$tbl_name="user";
 
-#get the parameters from the login html page
+//get the parameters from the login html page
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-#Table name
-$tbl_name="user";
+// clean the strings 
+$username = stripslashes($username);
+$password = stripslashes($password);
+$username = mysqli_real_escape_string($conn,$username);
+$password = mysqli_real_escape_string($conn,$password);
+
+
 //Query
 $sql="SELECT * FROM $tbl_name WHERE username='$username' and password='$password'";
 $result = mysqli_query($conn,$sql);
