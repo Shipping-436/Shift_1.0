@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html xmlns= "http://www.w3.org/19999/xhtml">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap">
-    <title>Login</title>
-</head>
-<body>
-
 <?php 
 //include database connection
 include("connect.php");
@@ -47,5 +38,3 @@ if(mysqli_num_rows($result) > 0){
     }
 }
 ?>
-</body>
-</html>
