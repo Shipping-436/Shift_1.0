@@ -1,4 +1,3 @@
-<?php include ('login.php'); ?>
 <!DOCTYPE html>
 <html lang = "en">
 
@@ -28,16 +27,16 @@
     <!--Main Container-->
 
       <div class="mainContainer">
-        <form id="login-form" method="POST" action="login.php">
+        <form id="login-form" action="">
       <!--Username Input-->
           <label for="username">Username</label>
-          <input class="inp1" type="text" placeholder="Enter Username" name= "username">
+          <input class="inp1" type="text" placeholder="Enter Username" name= "username" id="username">
 
           <br><br>
 
         <!--Pass-->
           <label for="password">Password</label>
-          <input class="inp1" type="password" placeholder="Enter Password" name="password">
+          <input class="inp1" type="password" placeholder="Enter Password" name="password" id="password">
 
         <div class="subcontainer">
           <label>
@@ -49,19 +48,14 @@
       </div>
       <div class="btn-div">
       <!--Submission-->
-        <a href="">
-          <button class=btnlogin type="submit" form="login-form" style="font-size: 30;"style= font-><strong>Login</strong></button>
+        <a href="schedule_manager.html">
+          <button class=btnlogin type="button" form="login-form" id="login" style="font-size: 30;"style= font-><strong>Login</strong></button>
         </a>
       </div>
       </div>
      </div>
     
 
-
-
-
-  
-    
   </body>
 </html>
 

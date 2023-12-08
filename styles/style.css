@@ -72,7 +72,7 @@
 h1{
   text-align: center;
   color: rgb(219, 219, 139);
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 form{
@@ -356,13 +356,13 @@ button:hover {
   }
 
   .scroll-take {
-    min-height: 515px;
+    min-height: 600px;
     max-height: 356px;
     overflow-y: scroll;
   }
 
   .schedule-container {
-    padding-top: 15px;
+    padding-top: 0px;
     display: flex;
     justify-content: center;
   }
