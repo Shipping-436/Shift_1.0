@@ -1,7 +1,7 @@
 <?php
 $sname = "localhost";
-$uname = "root";
-$password = "";
+$uname = "matthew";
+$password = "2Trwbx81!";
 $db = "shift_database";
 
 //connecting to the database
