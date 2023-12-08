@@ -9,7 +9,7 @@
 
 <?php 
 //include database connection
-include("php/connect.php");
+include("connect.php");
 $tbl_name="user";
 
 //get the parameters from the login html page
