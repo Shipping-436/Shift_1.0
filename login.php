@@ -42,7 +42,7 @@ if(mysqli_num_rows($result) > 0){
         session_register("password");
     } else {
         echo "<script>alert('Access Denied!');
-        window.location='index.php';
+        window.location='index.html';
 						</script>";
     }
 }
