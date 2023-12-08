@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns= "http://www.w3.org/19999/xhtml">
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap">
@@ -8,37 +8,36 @@
 <body>
 
 <?php 
-#connecting to the database
-$conn = mysqli_connect("studentdb-maria.gl.umbc.edu", "menchues", "menchues", "menchues");
+//include database connection
+include("php/connect.php");
 
 #get the parameters from the login html page
 $username = $_POST['username'];
-$password = $_POST['pass'];
-#to prevent injections
-$username = mysqli_real_escape_string($conn, $_POST['username']);
-$password = mysqli_real_escape_string($conn, $_POST['pass']);
+$password = $_POST['password'];
 
-#EMPLOYEE Table
-$tbl_name="LOGIN";
+#Table name
+$tbl_name="user";
 //Query
 $sql="SELECT * FROM $tbl_name WHERE username='$username' and password='$password'";
-$result=mysqli_query($conn,$sql);
+$result = mysqli_query($conn,$sql);
 // mysqli_num_rows is counting table row
 if(mysqli_num_rows($result) > 0){
     $rows = mysqli_fetch_assoc($result);
  
     //Direct pages with different user levels
-    if ($rows['E_Position'] == 'Manager') {
+    if ($rows['Manager'] == 'yes') {
         header('location: schedule_manager.html');  
         session_register("username");
-        session_register("pass");
+        session_register("pasword");
     
-    } else if ($rows['E_Position'] != 'Manager') {
+    } else if ($rows['Manager'] == 'no') {
         header("location: schedule.html");
         session_register("username");
-        session_register("pass");
+        session_register("password");
     } else {
-        header("index.html");
+        echo "<script>alert('Access Denied!');
+        window.location='index.php';
+						</script>";
     }
 }
 ?>

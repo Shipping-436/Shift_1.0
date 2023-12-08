@@ -1,5 +1,4 @@
-
-
+<?php include("connect.php"); ?>
 <!DOCTYPE html>
 <html lang = "en">
 
@@ -29,7 +28,7 @@
     <!--Main Container-->
 
       <div class="mainContainer">
-        <form id="login-form" method="post" action="php/login.php">
+        <form id="login-form" method="POST" action="php/login.php">
       <!--Username Input-->
           <label for="username">Username</label>
           <input class="inp1" type="text" placeholder="Enter Username" name= "username">
@@ -37,8 +36,8 @@
           <br><br>
 
         <!--Pass-->
-          <label for="pass">Password</label>
-          <input class="inp1" type="password" placeholder="Enter Password" name="pass">
+          <label for="password">Password</label>
+          <input class="inp1" type="password" placeholder="Enter Password" name="password">
 
         <div class="subcontainer">
           <label>
