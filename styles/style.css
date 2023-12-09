@@ -415,6 +415,7 @@ button:hover {
     font-size: 12px;
     color: white;
     padding: 0;
+    margin-top: 0;
     background-color: black;
   }
 
@@ -422,6 +423,7 @@ button:hover {
     font-size: 12px;
     color: white;
     padding: 0;
+    margin-top: 0;
     background-color: black;
   }
 
@@ -429,6 +431,7 @@ button:hover {
     font-size: 12px;
     color: white;
     padding: 0;
+    margin-top: 0;
     background-color: grey;
   }
 
